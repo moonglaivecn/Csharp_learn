@@ -13,14 +13,14 @@ namespace what_is_class
         {
             // The code provided will print ‘Hello World’ to the console.
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Student stu1 = new Student(1,"ackurdeeve");
+            Type t = typeof(Student);//反射
+            object o = Activator.CreateInstance(t, 2, "ackurdeeve");
+            Student stu1 = o as Student;
             Console.WriteLine(stu1.ID);
             Console.WriteLine(stu1.Name);
             stu1.Report();
             Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
     }
 
@@ -30,6 +30,11 @@ namespace what_is_class
         {
             this.ID = id;
             this.Name = name;
+        }
+
+        ~Student()//
+        {
+            Console.WriteLine("Bye!Release system resources");
         }
         public int ID { get; set; }
         public string Name { get; set; }

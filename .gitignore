@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/.vs
+/what_is_class/.vs/what_is_class/v15
+/what_is_class/what_is_class/bin/Debug
+/what_is_class/what_is_class/obj/Debug
+/what_is_class/what_is_class/Properties
+*.config

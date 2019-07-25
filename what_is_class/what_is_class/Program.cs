@@ -14,7 +14,7 @@ namespace what_is_class
             // The code provided will print ‘Hello World’ to the console.
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
             Console.WriteLine("Hello World!");
-            Student stu1 = new Student(){ID = 1, Name = "Ackurdeeve"};//初始化器，默认构造器
+            Student stu1 = new Student(1,"ackurdeeve");
             Console.WriteLine(stu1.ID);
             Console.WriteLine(stu1.Name);
             stu1.Report();
@@ -26,6 +26,11 @@ namespace what_is_class
 
     class Student
     {
+        public Student(int id, string name)//实例构造器
+        {
+            this.ID = id;
+            this.Name = name;
+        }
         public int ID { get; set; }
         public string Name { get; set; }
 

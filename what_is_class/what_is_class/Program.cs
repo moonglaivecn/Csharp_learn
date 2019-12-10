@@ -27,7 +27,7 @@ namespace what_is_class
 
         static Student()//静态属性测试
         {
-            Amount = 100;
+            Amount = 105;
         }
         public Student(int id, string name)//实例构造器
         {

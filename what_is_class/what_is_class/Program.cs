@@ -25,7 +25,7 @@ namespace what_is_class
     {
         public static int Amount { get; set; }
 
-        static Student()//静态属性
+        static Student()//静态属性测试
         {
             Amount = 100;
         }

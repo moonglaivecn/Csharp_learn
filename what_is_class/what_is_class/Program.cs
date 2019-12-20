@@ -13,7 +13,7 @@ namespace what_is_class
         {
             // The code provided will print ‘Hello World’ to the console.
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Student stu1 = new Student(1,"ackurdeeve");
+            Student stu1 = new Student(1,"ackurdeevesq");
             Student stu2 = new Student(2, "moonglaive");
             Student stu3 = new Student(3,"midicat");
             Console.WriteLine(Student.Amount);

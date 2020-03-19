@@ -13,7 +13,7 @@ namespace what_is_class
         {
             // The code provided will print ‘Hello World’ to the console.
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Student stu1 = new Student(1, "ackurdeeve");
+            Student stu1 = new Student(1,"ackurdeevesq");
             Student stu2 = new Student(2, "moonglaive");
             Student stu3 = new Student(3, "midicat");
 
@@ -25,9 +25,9 @@ namespace what_is_class
     {
         public static int Amount { get; set; }
 
-        static Student() //静态属性
+        static Student()//静态属性测试
         {
-            Amount = 100;
+            Amount = 110;
         }
 
         public Student(int id, string name) //实例构造器

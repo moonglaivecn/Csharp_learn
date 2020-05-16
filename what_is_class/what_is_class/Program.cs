@@ -11,7 +11,7 @@ namespace what_is_class
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
+            // The code provided will print ‘Hello World’ to the console.898
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
             Student stu1 = new Student(1,"ackurdeevesq");
             Student stu2 = new Student(2, "moonglaive");
